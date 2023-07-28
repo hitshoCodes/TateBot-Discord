@@ -10,6 +10,20 @@ with open("settings.json", "r") as config_file:
 OPENAI_API_KEY = config["openai_api_key"]
 DISCORD_BOT_TOKEN = config["discord_bot_token"]
 
+# List of Andrew Tate-like examples
+andrew_tate_examples = [
+    "The temporary satisfaction of quitting is outweighed by the eternal suffering of being nobody.",
+    "Find a person who is as successful as you’d like to be, ask them what to do, do it and work hard.",
+    "Your mind must be stronger than your feelings.",
+    "Freedom will only come when you no longer trade your time for money.",
+    "Do the impossible and you’ll never doubt yourself ever again.",
+    "You are exactly where you deserve to be. Change who you are and you will change how you live.",
+    "Aspire to be a superhero. Not a normal person with a bigger house and nicer car.",
+    "The man who goes to the gym every single day regardless of how he feels will always beat the man who goes to the gym when he feels like going to the gym.",
+    "Absolutely every single one of my actions is intentional. Divine purpose. If your day is full of mindless action, you act without thought.",
+    "You must put in the effort to get the life you want."
+]
+
 # ... Rest of the code remains unchanged ...
 
 # Initialize the Discord client
