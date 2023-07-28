@@ -1,0 +1,67 @@
+TateBot-Discord Setup Guide 🚀
+
+Follow these steps to set up and use TateBot-Discord on your Discord server:
+
+Step 1: Download the Bot
+
+1. Go to the GitHub repository: https://github.com/hitshoCodes/TateBot-Discord
+2. Click on the green "Code" button and then select "Download ZIP".
+3. Extract the contents of the ZIP file to your desired location.
+
+Step 2: Install Dependencies
+
+1. Open a terminal or command prompt.
+2. Navigate to the directory where you extracted the ZIP file.
+3. Run the following command to install the required dependencies:
+   pip install -r requirements.txt
+
+Step 3: Opening settings.json
+
+In the same directory as main.py, edit a file called settings.json.
+Open settings.json using a text editor like Notepad or VSCode.
+
+Step 4: Obtain Discord Bot Token
+
+1. Go to the Discord Developer Portal: https://discord.com/developers/applications
+2. Create a new application and give it a name.
+3. In the "Bot" section, click on "Add Bot" and confirm.
+4. Under the "Token" section, click on "Copy" to copy your Discord bot token.
+5. Paste the bot token into settings.json in the following format:
+{
+"openai_api_key": "YOUR_OPENAI_API_KEY",
+"discord_bot_token": "YOUR_DISCORD_BOT_TOKEN"
+}
+(Replace YOUR_DISCORD_BOT_TOKEN with your actual bot token.)
+
+Step 5: Obtain OpenAI API Key
+
+1. Sign in or create an account on OpenAI: https://beta.openai.com/signup/
+2. Obtain your OpenAI API key from your dashboard.
+3. Paste the API key into settings.json in the following format:
+{
+"openai_api_key": "YOUR_OPENAI_API_KEY",
+"discord_bot_token": "YOUR_DISCORD_BOT_TOKEN"
+}
+(Replace YOUR_OPENAI_API_KEY with your actual API key.)
+
+Step 6: Run the Bot
+
+1. Double click main.py.
+2. If the program crashes, you've done something wrong or you have an outdated version of this program.
+
+Step 7: Invite the Bot to Your Server
+
+1. Go to the Discord Developer Portal: https://discord.com/developers/applications
+2. Select your application and navigate to the "OAuth2" section.
+3. Under "OAuth2 URL Generator," select the "bot" scope and the necessary permissions for your bot.
+4. Copy the generated invite link and open it in your web browser.
+5. Choose the server where you want to add the bot and authorize it.
+
+Step 8: Test the Bot
+
+1. Go to your Discord server where you invited the bot.
+2. Type !tate followed by your message to receive an Andrew Tate-like response from the bot.
+3. Enjoy using TateBot-Discord! If you encounter any issues or have questions, refer to the GitHub repository or contact the bot's creator for support.
+
+⚠️ Disclaimer
+TateBot-Discord is an educational and inspirational project. Please use the bot responsibly and do not rely solely on its content for important decisions. The bot's responses are generated using the OpenAI API and may not accurately reflect Andrew Tate's exact words or views.
