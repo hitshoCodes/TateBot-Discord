@@ -6,7 +6,9 @@ Permission is hereby granted, free of charge, to any person or organization ("Li
 
 2. Licensee may modify the Software, except for the following files and settings:
 
-   [List the specific files or settings here that are not allowed to be modified]
+   main.py
+   requirements.txt
+   andrew_tate_examples.txt
 
 3. Licensee may distribute the Software, provided that:
 
