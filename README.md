@@ -1,7 +1,5 @@
 # TateBot-Discord
 
-# TateBot-Discord 🚀
-
 TateBot-Discord is a powerful Discord bot that brings the wisdom and motivation of Andrew Tate to your server. Interact with the bot and receive Andrew Tate-like phrases to stay inspired, motivated, and driven to achieve your goals.
 
 ## How to Use 🛠️
