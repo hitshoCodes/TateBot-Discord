@@ -18,7 +18,7 @@ TateBot-Discord is an educational and inspirational project, but remember that t
 
 The software is licensed under a custom limited license. See the [LICENSE](LICENSE) file for details.
 
-🔮 The Future 🚀
+## 🔮 The Future 🚀
 
 As the community grows, there is potential for future development and enhancement of TateBot-Discord. We remain open to the possibility of expanding the bot's features and functionality to inspire and motivate even more users.
 
